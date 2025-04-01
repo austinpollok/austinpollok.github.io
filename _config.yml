@@ -12,7 +12,7 @@ title                    : "Austin Pollok"
 title_separator          : "-"
 name                     : &name "Austin Pollok"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://austinpollok.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "austinpollok.github.io"
 
