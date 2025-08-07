@@ -1,0 +1,39 @@
+/* Custom styles to move navigation to the right */
+
+.greedy-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.greedy-nav .visible-links li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.greedy-nav .visible-links li:first-child {
+  margin-left: 0;
+}
+
+/* Ensure the site title stays on the left */
+.masthead__menu-item--lg {
+  margin-right: auto;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .greedy-nav {
+    justify-content: space-between;
+  }
+  
+  .greedy-nav .visible-links {
+    margin-left: 0;
+  }
+} 
