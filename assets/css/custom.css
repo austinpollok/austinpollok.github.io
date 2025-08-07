@@ -2,29 +2,26 @@
 
 .greedy-nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .greedy-nav .visible-links {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  margin-left: auto;
+  width: 100%;
 }
 
-.greedy-nav .visible-links li {
-  display: inline-block;
-  margin-left: 1rem;
-}
-
-.greedy-nav .visible-links li:first-child {
-  margin-left: 0;
-}
-
-/* Ensure the site title stays on the left */
-.masthead__menu-item--lg {
+/* Keep the site title (Austin Pollok) on the left */
+.greedy-nav .visible-links .masthead__menu-item--lg {
   margin-right: auto;
+  flex-shrink: 0;
+}
+
+/* Move all other navigation items to the right */
+.greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) {
+  margin-left: 1rem;
 }
 
 /* Mobile responsive adjustments */
@@ -34,6 +31,10 @@
   }
   
   .greedy-nav .visible-links {
-    margin-left: 0;
+    flex-wrap: wrap;
+  }
+  
+  .greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) {
+    margin-left: 0.5rem;
   }
 } 
