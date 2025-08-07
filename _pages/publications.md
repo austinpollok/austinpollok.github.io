@@ -29,23 +29,23 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025)<br>
+      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2022)<br>
       with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee<br>
-      <em style="color: #7f8c8d;">Submitted 2025</em>
+      <em style="color: #7f8c8d;">Submitted 2022</em>
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"High-Frequency Multivariate Sequence Modeling for Intraday S&P 500 Volatility and 0DTE Options Mispricing,"</strong> (2025)<br>
+      <strong>"High-Frequency Multivariate Sequence Modeling for Intraday S&P 500 Volatility and 0DTE Options Mispricing,"</strong> (2022)<br>
       with Christopher S. Jones
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
-      <strong>"Nonlinear Shrinkage Estimation for High Dimensional Hidden Markov Models,"</strong> (2025)<br>
+      <strong>"Nonlinear Shrinkage Estimation for High Dimensional Hidden Markov Models,"</strong> (2022)<br>
       with Gourab Mukherjee
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
-      <strong>"Alpha Term Structure in Corporate Bonds for Pricing and Hedging,"</strong> (2025)<br>
+      <strong>"Alpha Term Structure in Corporate Bonds for Pricing and Hedging,"</strong> (2022)<br>
       with Petter Kolm and Terry Benzschawel
     </p>
   </div>
@@ -74,11 +74,6 @@ author_profile: true
   <h2 style="color: #2c3e50; font-size: 1.4rem; margin-bottom: 1rem; font-weight: 500; border-bottom: 2px solid #990000; padding-bottom: 0.5rem;">Permanent Working Papers</h2>
   
   <div style="margin-bottom: 3rem;">
-    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?,"</strong><br>
-      arXiv preprint arXiv:2506.07928, 2025
-    </p>
-    
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
       <strong>"Is the Kelly Criterion Just Another Utility Function?,"</strong> (2022)<br>
       with Peter Carr
