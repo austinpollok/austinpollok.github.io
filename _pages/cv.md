@@ -24,6 +24,27 @@ redirect_from:
     <p style="color: #2c3e50; font-size: 0.95rem; font-weight: 500; margin-bottom: 0;">Assistant Professor of Clinical Data Science and Operations</p>
   </div>
 
+  <!-- Industry Experience -->
+  <h2 style="color: #2c3e50; font-size: 1.4rem; margin-bottom: 1rem; font-weight: 500; border-bottom: 2px solid #990000; padding-bottom: 0.5rem;">Industry Experience</h2>
+  
+  <div style="margin-bottom: 3rem;">
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
+      <strong>TWG AI</strong>
+    </p>
+    
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
+      <strong>Critical Trading</strong>
+    </p>
+
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
+      <strong>Thrackle</strong>
+    </p>
+
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
+      <strong>Capital Group</strong>
+    </p>
+  </div>
+
   <!-- Education -->
   <h2 style="color: #2c3e50; font-size: 1.4rem; margin-bottom: 1rem; font-weight: 500; border-bottom: 2px solid #990000; padding-bottom: 0.5rem;">Education</h2>
   
