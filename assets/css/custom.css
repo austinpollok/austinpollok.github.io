@@ -38,9 +38,23 @@
   display: none !important;
 }
 
-/* Ensure hidden links are always visible */
+/* Force all navigation items to stay visible */
 .greedy-nav .hidden-links {
   display: none !important;
+}
+
+/* Ensure all navigation items are always visible */
+.greedy-nav .visible-links .masthead__menu-item {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Override any greedy navigation hiding */
+.greedy-nav .visible-links .masthead__menu-item.hidden {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 /* Mobile responsive adjustments */
