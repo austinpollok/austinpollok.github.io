@@ -28,21 +28,13 @@ redirect_from:
   <h2 style="color: #2c3e50; font-size: 1.4rem; margin-bottom: 1rem; font-weight: 500; border-bottom: 2px solid #990000; padding-bottom: 0.5rem;">Industry Experience</h2>
   
   <div style="margin-bottom: 3rem;">
-    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>TWG AI</strong>
-    </p>
-    
-    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
-      <strong>Critical Trading</strong>
-    </p>
+    <h3 style="color: #990000; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 500;">TWG AI</h3>
 
-    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
-      <strong>Thrackle</strong>
-    </p>
+    <h3 style="color: #990000; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 500;">Critical Trading</h3>
 
-    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
-      <strong>Capital Group</strong>
-    </p>
+    <h3 style="color: #990000; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 500;">Thrackle</h3>  
+
+    <h3 style="color: #990000; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 500;">Capital Group</h3>
   </div>
 
   <!-- Education -->
