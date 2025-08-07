@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png" # filename of your avatar image placed in /images/, e.g. "profile.png"
   name             : "Austin Pollok"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : 
   location         : "Los Angeles"
   employer         : "USC Marshall School of Business"
   uri              : # URL
