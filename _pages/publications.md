@@ -29,12 +29,6 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025)<br>
-      with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee<br>
-      <em style="color: #7f8c8d;">Submitted 2025</em>
-    </p>
-    
-    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
       <strong>"High-Frequency Multivariate Sequence Modeling for Intraday S&P 500 Volatility and 0DTE Options Mispricing,"</strong> (2025)<br>
       with Christopher S. Jones
     </p>
@@ -54,6 +48,11 @@ author_profile: true
   <h2 style="color: #2c3e50; font-size: 1.4rem; margin-bottom: 1rem; font-weight: 500; border-bottom: 2px solid #990000; padding-bottom: 0.5rem;">Publications and Forthcoming Papers</h2>
   
   <div style="margin-bottom: 3rem;">
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
+      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB)<br>
+      with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee
+    </p>
+    
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
       <strong>"High-Frequency Kelly Criterion and Fat-Tails: Gambling with an Edge,"</strong><br>
       ProQuest Dissertations and Theses, 2022
