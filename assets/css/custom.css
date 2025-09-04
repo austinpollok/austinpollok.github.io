@@ -117,3 +117,12 @@
 
 /* Unify page title rhythm */
 .page__title { font-size: 1.8rem; margin: 0 0 0.75rem 0; font-weight: 600; } 
+
+/* Allow wrapping for long sidebar items (e.g., employer name) */
+.author__urls li,
+.author__urls li a {
+  white-space: normal !important;
+  line-height: 1.4;
+  word-break: normal;
+  overflow-wrap: anywhere;
+} 
