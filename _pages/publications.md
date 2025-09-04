@@ -33,7 +33,7 @@ author_profile: true
       with Christopher S. Jones
     </p>
     
-    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
       <strong>"Nonlinear Shrinkage Estimation for High Dimensional Hidden Markov Models,"</strong> (2025)<br>
       with Gourab Mukherjee
     </p>
@@ -49,22 +49,25 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB), with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee
+      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB)<br>
+      with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"High-Frequency Kelly Criterion and Fat-Tails: Gambling with an Edge,"</strong><br>
-      ProQuest Dissertations and Theses, 2022
+      <strong>"High-Frequency Kelly Criterion and Fat-Tails: Gambling with an Edge,"</strong> (2022)<br>
+      ProQuest Dissertations and Theses
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Kelly Criterion: From a Simple Random Walk to Lévy Processes,"</strong><br>
-      SIAM Journal of Financial Mathematics, 2021, 12-1, 342-368, with Sergey Lototsky
+      <strong>"Kelly Criterion: From a Simple Random Walk to Lévy Processes,"</strong> (2021)<br>
+      SIAM Journal of Financial Mathematics, 12-1, 342-368<br>
+      with Sergey Lototsky
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
-      <strong>"Transient Feedback and Robust Signaling Gradients. Appendix: Feedback on Receptor Synthesis Rate,"</strong><br>
-      International Journal of Numerical Analysis and Modeling, 2016, with Frederic Y. Wan
+      <strong>"Transient Feedback and Robust Signaling Gradients. Appendix: Feedback on Receptor Synthesis Rate,"</strong> (2016)<br>
+      International Journal of Numerical Analysis and Modeling<br>
+      with Frederic Y. Wan
     </p>
   </div>
 
@@ -73,7 +76,8 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?,"</strong> arXiv preprint (2022)
+      <strong>"Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?,"</strong> (2022)<br>
+      arXiv preprint
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
