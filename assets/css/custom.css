@@ -77,3 +77,32 @@
     font-size: 1rem !important;
   }
 } 
+
+/* Professional intro styles (USC accent) */
+.intro {
+  max-width: 720px;
+  margin: 2rem 0;
+}
+
+.intro--accent {
+  border-left: 3px solid #990000; /* USC cardinal */
+  padding-left: 1rem;
+}
+
+.intro__text {
+  color: #2c3e50;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Typography and spacing utilities */
+.lead { font-size: 1rem; }
+.stack-sm > * + * { margin-top: 0.5rem; }
+.stack-md > * + * { margin-top: 1rem; }
+.stack-lg > * + * { margin-top: 1.5rem; }
+
+/* Constrain main content width for readability when used explicitly */
+.content-narrow { max-width: 720px; }
+
+/* Ensure consistent spacing in author sidebar links (Follow area) */
+.author__urls .social-icons li a { gap: 0.35rem; } 
