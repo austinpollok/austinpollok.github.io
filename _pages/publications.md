@@ -49,8 +49,7 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB)<br>
-      with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee
+      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB), with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
