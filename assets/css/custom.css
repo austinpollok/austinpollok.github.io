@@ -106,3 +106,14 @@
 
 /* Ensure consistent spacing in author sidebar links (Follow area) */
 .author__urls .social-icons li a { gap: 0.35rem; } 
+
+/* Equal spacing for author sidebar items */
+.author__urls.social-icons li { margin: 0.35rem 0; }
+.author__urls.social-icons li.author__desktop { margin: 0.35rem 0; }
+
+/* Header spacing: add a touch of space between name and tabs */
+.greedy-nav .visible-links .masthead__menu-item--lg a { padding-right: 1rem; }
+.greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) a { padding-left: 0.6rem; }
+
+/* Unify page title rhythm */
+.page__title { font-size: 1.8rem; margin: 0 0 0.75rem 0; font-weight: 600; } 
