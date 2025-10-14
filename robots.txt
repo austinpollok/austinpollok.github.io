@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://austinpollok.github.io/sitemap.xml
+
+# Disallow private directories
+Disallow: /vendor/
+Disallow: /_site/
+Disallow: /.bundle/
+Disallow: /.git/
+Disallow: /tmp/
+Disallow: /log/

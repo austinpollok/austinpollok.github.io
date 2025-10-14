@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Austin Pollok"
+description: "Assistant Professor of Clinical Data Science and Operations at USC Marshall School of Business. Expert in quantitative finance, machine learning, volatility forecasting, and portfolio optimization."
 author_profile: true
 ---
 
