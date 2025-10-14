@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Austin Pollok"
 title_separator          : "-"
 name                     : &name "Austin Pollok"
-description              : &description "personal description"
+description              : &description "Austin Pollok - Assistant Professor of Clinical Data Science and Operations at USC Marshall School of Business. Expert in quantitative finance, machine learning, volatility forecasting, and portfolio optimization."
 url                      : https://austinpollok.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "austinpollok.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png" # filename of your avatar image placed in /images/, e.g. "profile.png"
   name             : "Austin Pollok"
   pronouns         : # example: "she/her"  
-  bio              : 
+  bio              : "Assistant Professor of Clinical Data Science and Operations at USC Marshall School of Business. Expert in quantitative finance, machine learning, and systematic trading strategies." 
   location         : "Los Angeles"
   employer         : "USC Marshall School of Business"
   uri              : # URL
@@ -113,10 +113,21 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "google36a9333b5efe3315.html"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+
+# SEO Tag Configuration
+seo:
+  type: Person
+  name: Austin Pollok
+  image: /images/profile.png
+  image_alt: Austin Pollok - Assistant Professor at USC Marshall School of Business
+  links:
+    - https://scholar.google.com/citations?user=jdo9rrAAAAAJ&hl=en
+    - https://github.com/austinpollok
+    - https://www.linkedin.com/in/austin-pollok-8564a396/
 
 
 # Social Sharing
@@ -137,9 +148,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : # Add your Google Analytics 4 tracking ID here (e.g., G-XXXXXXXXXX)
 
 
 # Reading Files
@@ -268,12 +279,14 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-seo-tag
   - jemoji
 
 

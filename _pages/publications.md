@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Research"
+description: "Research publications and working papers by Austin Pollok on quantitative finance, machine learning, volatility modeling, and systematic trading strategies."
 permalink: /publications/
 author_profile: true
 ---
