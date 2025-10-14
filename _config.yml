@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png" # filename of your avatar image placed in /images/, e.g. "profile.png"
   name             : "Austin Pollok"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor of Clinical Data Science and Operations at USC Marshall School of Business. Research in quantitative finance, machine learning, and systematic trading strategies." 
+  bio              : "Assistant Professor of Clinical Data Science and Operations at USC Marshall School of Business." 
   location         : "Los Angeles"
   employer         : "USC Marshall School of Business"
   uri              : # URL
