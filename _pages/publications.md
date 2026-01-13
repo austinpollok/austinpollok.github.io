@@ -55,14 +55,13 @@ author_profile: true
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"High-Frequency Kelly Criterion and Fat-Tails: Gambling with an Edge,"</strong> (2022)<br>
+      <strong><a href="/files/HighFrequency_KellyCriterion_and_FatTails.pdf" style="color: #990000; text-decoration: none;">"High-Frequency Kelly Criterion and Fat-Tails: Gambling with an Edge,"</a></strong> (2022)<br>
       ProQuest Dissertations and Theses
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
       <strong><a href="https://arxiv.org/pdf/2002.03448" style="color: #990000; text-decoration: none;">"Kelly Criterion: From a Simple Random Walk to Lévy Processes,"</a></strong> (2021)<br>
       SIAM Journal of Financial Mathematics, 12-1, 342-368<br>
-      <a href="/files/HighFrequency_KellyCriterion_and_FatTails.pdf" style="color: #990000; text-decoration: none;">[PDF]</a><br>
       with Sergey Lototsky
     </p>
     
