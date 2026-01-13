@@ -50,7 +50,7 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB)<br>
+      <strong><a href="https://arxiv.org/pdf/2507.08455" style="color: #990000; text-decoration: none;">"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</a></strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB)<br>
       with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee
     </p>
     
@@ -60,7 +60,7 @@ author_profile: true
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Kelly Criterion: From a Simple Random Walk to Lévy Processes,"</strong> (2021)<br>
+      <strong><a href="https://arxiv.org/pdf/2002.03448" style="color: #990000; text-decoration: none;">"Kelly Criterion: From a Simple Random Walk to Lévy Processes,"</a></strong> (2021)<br>
       SIAM Journal of Financial Mathematics, 12-1, 342-368<br>
       with Sergey Lototsky
     </p>
@@ -77,7 +77,7 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?,"</strong> (2022)<br>
+      <strong><a href="https://arxiv.org/pdf/2506.07928" style="color: #990000; text-decoration: none;">"Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?,"</a></strong> (2022)<br>
       arXiv preprint
     </p>
     
