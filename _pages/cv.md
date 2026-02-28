@@ -16,12 +16,10 @@ redirect_from:
   
   <div style="margin-bottom: 3rem;">
     <h3 style="color: #990000; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 500;">University of Southern California</h3>
-    <p style="color: #7f8c8d; font-size: 0.9rem; margin-bottom: 0.5rem;"><a href="https://www.marshall.usc.edu/personnel/austin-pollok" target="_blank" style="color: inherit; text-decoration: none;">USC Marshall School of Business</a></p>
     <p style="color: #7f8c8d; font-size: 0.9rem; margin-bottom: 0.5rem;">2024 - present</p>
     <p style="color: #2c3e50; font-size: 0.95rem; font-weight: 500; margin-bottom: 1rem;">Assistant Professor of Clinical Finance and Business Economics (Joint Appointment)</p>
 
     <h3 style="color: #990000; font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 500;">University of Southern California</h3>
-    <p style="color: #7f8c8d; font-size: 0.9rem; margin-bottom: 0.5rem;"><a href="https://www.marshall.usc.edu/personnel/austin-pollok" target="_blank" style="color: inherit; text-decoration: none;">USC Marshall School of Business</a></p>
     <p style="color: #7f8c8d; font-size: 0.9rem; margin-bottom: 0.5rem;">2022 - present</p>
     <p style="color: #2c3e50; font-size: 0.95rem; font-weight: 500; margin-bottom: 0;">Assistant Professor of Clinical Data Science and Operations</p>
   </div>
