@@ -113,7 +113,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification : "google36a9333b5efe3315.html"
+google_site_verification : "36a9333b5efe3315"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -182,6 +182,8 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - SEO_SETUP_GUIDE.md
+  - markdown_generator
 keep_files:
   - .git
   - .svn
@@ -221,6 +223,11 @@ collections:
 
 # Defaults
 defaults:
+  # Google verification file - exclude from sitemap
+  - scope:
+      path: "google36a9333b5efe3315.html"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
