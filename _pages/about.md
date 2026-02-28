@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 description: "Learn more about Austin Pollok's research in quantitative finance, machine learning, and his role as Assistant Professor at USC Marshall School of Business."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about.html
 ---
 
