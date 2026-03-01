@@ -7,9 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor of Clinical Data Science and Operations and Finance and Business Economics at the University of Southern California's Marshall School of Business. My work sits at the intersection of quantitative finance, machine learning, and investment strategy design.
-
-My research focuses on applying modern statistical learning and artificial intelligence techniques to problems in asset pricing, volatility modeling, derivatives markets, portfolio construction, and market microstructure. I am particularly interested in how AI and ML methods can be translated from research environments into practical, implementable investment systems.
+<div style="background: #f8f9fa; padding: 2rem; border-radius: 8px; border-left: 4px solid #990000; margin: 2rem 0;">
+  <p style="font-size: 1.1em; line-height: 1.7; color: #2c3e50; margin: 0 0 1rem 0;">
+    I am an Assistant Professor of Clinical Data Science and Operations and Finance and Business Economics at the University of Southern California's Marshall School of Business. My work sits at the intersection of quantitative finance, machine learning, and investment strategy design.
+  </p>
+  <p style="font-size: 1.1em; line-height: 1.7; color: #2c3e50; margin: 0;">
+    My research focuses on applying modern statistical learning and artificial intelligence techniques to problems in asset pricing, volatility modeling, derivatives markets, portfolio construction, and market microstructure. I am particularly interested in how AI and ML methods can be translated from research environments into practical, implementable investment systems.
+  </p>
+</div>
 
 My academic interests span:
 
