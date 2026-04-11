@@ -12,17 +12,22 @@ author_profile: true
   
   <!-- Research Interests -->
   <h2 style="color: #2c3e50; font-size: 1.4rem; margin-bottom: 1rem; font-weight: 500; border-bottom: 2px solid #990000; padding-bottom: 0.5rem;">Research Interests</h2>
-  <p style="color: #2c3e50; font-size: 0.95rem; line-height: 1.5; margin-bottom: 2rem;">
-    Application of modern machine learning techniques in quantitative and empirical finance
-  </p>
   
+  <h3 style="color: #990000; font-size: 1.05rem; margin-bottom: 0.5rem; font-weight: 500;">Financial Markets, Strategies, and Products</h3>
+  <ul style="color: #2c3e50; line-height: 1.5; margin: 0 0 1.5rem 0; padding-left: 1.2rem; font-size: 0.9rem;">
+    <li>Volatility, options, and derivatives markets</li>
+    <li>Corporate bond and credit markets</li>
+    <li>Portfolio construction, derivatives-enhanced equity strategies, and ETF design</li>
+    <li>Trading frictions, liquidity, and execution</li>
+    <li>Blockchain systems and decentralized finance</li>
+  </ul>
+
+  <h3 style="color: #990000; font-size: 1.05rem; margin-bottom: 0.5rem; font-weight: 500;">Methods</h3>
   <ul style="color: #2c3e50; line-height: 1.5; margin: 0 0 3rem 0; padding-left: 1.2rem; font-size: 0.9rem;">
-    <li>Volatility modeling</li>
-    <li>Empirical option pricing, return predictability, and microstructure</li>
-    <li>Optimal portfolio and ETF construction</li>
-    <li>Deep learning and deep reinforcement learning for systematic trading strategies</li>
-    <li>Causal inference for transaction cost modeling</li>
-    <li>Blockchain technology and De-Fi (automated market makers)</li>
+    <li>Machine learning and AI for quantitative finance</li>
+    <li>Deep learning, sequential modeling, and reinforcement learning</li>
+    <li>Statistical learning, prediction, and causal inference for financial decision-making</li>
+    <li>Optimization and constrained decision-making</li>
   </ul>
 
   <!-- Working Papers -->
@@ -31,7 +36,7 @@ author_profile: true
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
       <strong>"High-Frequency Multivariate Sequence Modeling for Intraday S&P 500 Volatility and 0DTE Options Mispricing,"</strong> (2025)<br>
-      with Christopher S. Jones
+      with James Chen, Mihia Cucuringu, and Christopher S. Jones
     </p>
     
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
