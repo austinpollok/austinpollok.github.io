@@ -61,7 +61,7 @@ redirect_from:
   </p>
 
   <p style="color: #2c3e50; font-size: 0.9rem; line-height: 1.7; margin-bottom: 2rem;">
-    I have received the USC Marshall Golden Apple Award for Graduate Teaching and the Theodore Edward Harris Prize for Excellence in Teaching.
+    I have received the Marshall Teaching Excellence Award (2026), as one of four recipients across the school, along with the USC Marshall Golden Apple Award for Graduate Teaching and the Theodore Edward Harris Prize for Excellence in Teaching.
   </p>
 
 </div>
