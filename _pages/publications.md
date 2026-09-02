@@ -35,17 +35,31 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"High-Frequency Multivariate Sequence Modeling for Intraday S&P 500 Volatility and 0DTE Options Mispricing,"</strong> (2025)<br>
-      with James Chen, Mihia Cucuringu, and Christopher S. Jones
+      <strong>"Harvesting the Variance Risk Premium with Generalized Covered Calls,"</strong> (2026)<br>
+      with Daniel Cheeseman, Christopher S. Jones, and Daniel J. Vera
     </p>
-    
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong>"Nonlinear Shrinkage Estimation for High Dimensional Hidden Markov Models,"</strong> (2025)<br>
-      with Gourab Mukherjee
+      <strong>"High-Dimensional Regime-Switching Covariance Estimation for Corporate Bonds,"</strong> (2026)<br>
+      with Gourab Mukherjee and Debashis Paul
     </p>
-    
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
+      <strong>"Store of Value or Settlement Rail? The Function of Stablecoins among High-Throughput Ethereum Wallets,"</strong> (2026)<br>
+      with Benjamin Gillen and Gourab Mukherjee
+    </p>
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
+      <strong>"High-Frequency Multivariate Sequence Modeling for Intraday S&P 500 Volatility and 0DTE Options Mispricing,"</strong> (2026)<br>
+      with James Chen, Mihai Cucuringu, and Christopher S. Jones
+    </p>
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
+      <strong>"Optimizing Returns for Corporate Bonds,"</strong> (2026)<br>
+      with Petter Kolm and Terry Benzschawel
+    </p>
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
+      <strong>"Alpha Decay, Implementation Decay: Lessons from Systematic Credit Strategies,"</strong> (2026)<br>
+      with Petter Kolm and Terry Benzschawel
+    </p>
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 0; font-size: 0.9rem;">
-      <strong>"Alpha Term Structure in Corporate Bonds for Pricing and Hedging,"</strong> (2025)<br>
+      <strong>"Alpha Term Structure in Corporate Bonds for Pricing and Hedging,"</strong> (2026)<br>
       with Petter Kolm and Terry Benzschawel
     </p>
   </div>
@@ -55,7 +69,12 @@ author_profile: true
   
   <div style="margin-bottom: 3rem;">
     <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
-      <strong><a href="https://arxiv.org/pdf/2507.08455" style="color: #990000; text-decoration: none;">"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</a></strong> (2025), Forthcoming, IEEE Artificial Intelligence for Business (AIxB)<br>
+      <strong>"End-to-End Parametric Portfolio Policies for Cross-Asset Futures Timing: When Do AI Models Beat Simple Rules?,"</strong> (2026), Forthcoming, IEEE Artificial Intelligence for Business (AIxB)<br>
+      with Kevin Robik
+    </p>
+    
+    <p style="color: #2c3e50; line-height: 1.5; margin-bottom: 1rem; font-size: 0.9rem;">
+      <strong><a href="https://arxiv.org/pdf/2507.08455" style="color: #990000; text-decoration: none;">"Modeling Wallet-Level Behavioral Shifts Post-FTX Collapse: An XAI-Driven GLM Study on Ethereum Transactions,"</a></strong> (2025), IEEE Artificial Intelligence for Business (AIxB)<br>
       with Benjamin Gillen, Rashmi Ranjan Bhuyan, and Gourab Mukherjee
     </p>
     
