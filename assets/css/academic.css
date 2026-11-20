@@ -1,0 +1,128 @@
+/* Shared reading layout; section colors and decorative styles stay page-specific. */
+:root {
+  --academic-body-size: 18px;
+  --academic-reading-width: 720px;
+}
+
+.page,
+.archive {
+  min-width: 0;
+}
+
+.page__inner-wrap,
+.academic-content {
+  max-width: var(--academic-reading-width);
+}
+
+.academic-content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+.page__content,
+.archive .academic-content {
+  font-size: var(--academic-body-size);
+  line-height: 1.7;
+}
+
+.page__content p,
+.page__content ul,
+.page__content ol,
+.page__content li,
+.page__content dl,
+.academic-content p,
+.academic-content ul,
+.academic-content ol,
+.academic-content li,
+.academic-content dl {
+  font-size: 1em;
+}
+
+.home-intro {
+  padding: 2rem;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.course-grid > div {
+  min-width: 0;
+}
+
+@media (min-width: 925px) {
+  /* Give single and archive layouts the same usable reading width. */
+  .page {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-intro {
+    padding: 1.25rem;
+  }
+
+  .course-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* CV dates share a column; entries stack when the reading area is narrow. */
+.cv-content .cv-section {
+  margin-bottom: 3rem;
+}
+
+.cv-content .cv-entry {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  column-gap: 1.25rem;
+  align-items: baseline;
+}
+
+.cv-content .cv-entry + .cv-entry {
+  margin-top: 1.5rem;
+}
+
+.cv-content .cv-entry__date {
+  margin: 0;
+  color: #7f8c8d;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.cv-content .cv-entry__content {
+  min-width: 0;
+  color: #2c3e50;
+}
+
+.cv-content .cv-entry__heading {
+  margin: 0 0 0.5rem;
+  color: #990000;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.cv-content .cv-entry__content p {
+  margin: 0 0 0.5rem;
+}
+
+.cv-content .cv-entry__content p:last-child {
+  margin-bottom: 0;
+}
+
+.cv-content .cv-entry__role {
+  font-weight: 500;
+}
+
+@media (max-width: 599px) {
+  .cv-content .cv-entry {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.35rem;
+  }
+}

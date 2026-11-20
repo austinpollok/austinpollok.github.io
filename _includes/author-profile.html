@@ -17,7 +17,25 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.position %}
+      <div class="author__appointment">
+        <p class="author__position">{{ author.position | escape }}</p>
+        {% if author.departments %}
+          <ul class="author__departments">
+            {% for department in author.departments %}
+              <li>{{ department | escape }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if author.employer %}
+          <p class="author__affiliation">
+            {% if author.uri %}<a href="{{ author.uri }}" target="_blank" rel="noopener">{{ author.employer | escape }}</a>{% else %}{{ author.employer | escape }}{% endif %}
+          </p>
+        {% endif %}
+      </div>
+    {% elsif author.bio %}
+      <p class="author__bio">{{ author.bio }}</p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -28,7 +46,9 @@
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
+        {% unless author.position %}
         <li><a href="{{ author.uri }}" target="_blank"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
+        {% endunless %}
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>

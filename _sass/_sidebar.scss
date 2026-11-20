@@ -153,6 +153,44 @@
   }
 }
 
+.sidebar .author__appointment {
+  margin: 0.6rem 0 1rem;
+}
+
+.sidebar .author__position {
+  margin: 0 0 0.45rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.sidebar .author__departments {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0 0 0.35rem;
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+}
+
+.sidebar .author__affiliation {
+  margin: 0.7rem 0 0;
+  font-size: 0.875rem;
+  line-height: 1.45;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;

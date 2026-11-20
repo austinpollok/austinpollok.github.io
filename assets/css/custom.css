@@ -1,82 +1,100 @@
-/* Custom styles to move navigation to the right */
+/* Keep the site title left-aligned and desktop links right-aligned. */
+.masthead__inner-wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 .greedy-nav {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  width: 100% !important;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  min-width: 0;
+  min-height: 70px;
+}
+
+.greedy-nav .site-title {
+  flex-shrink: 0;
+  margin: 0 auto 0 0;
+  padding: 0.5rem 0;
+  white-space: nowrap;
 }
 
 .greedy-nav .visible-links {
-  display: flex !important;
-  align-items: center !important;
-  width: 100% !important;
-  flex-wrap: nowrap !important;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-.greedy-nav .visible-links li {
-  display: flex !important;
-  align-items: center !important;
-  white-space: nowrap !important;
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li:first-child {
+  display: block;
+  font-weight: normal;
+  white-space: nowrap;
 }
 
-/* Keep the site title (Austin Pollok) on the left */
-.greedy-nav .visible-links .masthead__menu-item--lg {
-  margin-right: auto !important;
-  flex-shrink: 0 !important;
-  min-width: auto !important;
+.greedy-nav .visible-links a {
+  margin: 0 0 0 1.5rem;
+  padding: 0.5rem 0;
 }
 
-/* Move all other navigation items to the right */
-.greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) {
-  margin-left: 0.8rem !important;
-  flex-shrink: 0 !important;
+.greedy-nav .visible-links a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3em;
 }
 
-/* Hide the hamburger button */
-.greedy-nav button {
-  display: none !important;
+.greedy-nav .nav-toggle,
+.greedy-nav .visible-links[hidden] {
+  display: none;
 }
 
-/* Force all navigation items to stay visible */
-.greedy-nav .hidden-links {
-  display: none !important;
+.greedy-nav .nav-toggle:focus-visible {
+  outline: 2px solid #990000;
+  outline-offset: 3px;
 }
 
-/* Ensure all navigation items are always visible */
-.greedy-nav .visible-links .masthead__menu-item {
-  display: flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-/* Override any greedy navigation hiding */
-.greedy-nav .visible-links .masthead__menu-item.hidden {
-  display: flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-/* Mobile responsive adjustments */
-@media (max-width: 768px) {
-  .greedy-nav {
-    justify-content: space-between !important;
+@media (max-width: 900px) {
+  .greedy-nav .nav-toggle:not([hidden]) {
+    display: inline-flex;
+    position: static;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 64px;
+    min-height: 44px;
+    height: auto;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    background: #fff;
+    color: #2c3e50;
+    font: inherit;
   }
-  
+
   .greedy-nav .visible-links {
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: calc(100vh - 80px);
+    max-height: calc(100dvh - 80px);
+    overflow-y: auto;
+    margin: 0;
+    padding: 0.4rem 0;
+    border: 1px solid #d8d8d8;
+    background: #fff;
   }
-  
-  .greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) {
-    margin-left: 0.5rem !important;
-    font-size: 0.9rem !important;
+
+  .greedy-nav .visible-links a,
+  .greedy-nav .visible-links li:first-child a {
+    margin: 0;
+    padding: 0.65rem 1rem;
+    min-height: 44px;
+    white-space: normal;
   }
-  
-  .greedy-nav .visible-links .masthead__menu-item--lg {
-    font-size: 1rem !important;
-  }
-} 
+}
 
 /* Professional intro styles (USC accent) */
 .intro {
@@ -105,18 +123,14 @@
 .content-narrow { max-width: 720px; }
 
 /* Ensure consistent spacing in author sidebar links (Follow area) */
-.author__urls .social-icons li a { gap: 0.35rem; } 
+.author__urls .social-icons li a { gap: 0.35rem; }
 
 /* Equal spacing for author sidebar items */
 .author__urls.social-icons li { margin: 0.35rem 0; }
 .author__urls.social-icons li.author__desktop { margin: 0.35rem 0; }
 
-/* Header spacing: add a touch of space between name and tabs */
-.greedy-nav .visible-links .masthead__menu-item--lg a { padding-right: 1rem; }
-.greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) a { padding-left: 0.6rem; }
-
 /* Unify page title rhythm */
-.page__title { font-size: 1.8rem; margin: 0 0 0.75rem 0; font-weight: 600; } 
+.page__title { font-size: 1.8rem; margin: 0 0 0.75rem 0; font-weight: 600; }
 
 /* Allow wrapping for long sidebar items (e.g., employer name) */
 .author__urls li,
@@ -125,4 +139,4 @@
   line-height: 1.4;
   word-break: normal;
   overflow-wrap: anywhere;
-} 
+}
